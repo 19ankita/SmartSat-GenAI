@@ -1,15 +1,11 @@
 import os
 from fpdf import FPDF
-from dotenv import load_dotenv
 from transformers import pipeline
 import torch
 import pandas as pd
 from datetime import datetime
 
 torch.manual_seed(42)
-
-# Load environment variables
-load_dotenv()
 
 gpt2_pipe = pipeline("text-generation", model="gpt2")
 CORRECTION_LOG_PATH = "llm_lib/reports/correction_log.csv"
