@@ -1,0 +1,2 @@
+python scripts/full_pipeline.py --data data/synthetic/sensor_data_LR.csv --model lr --llm gpt2
+python scripts/full_pipeline.py --data data/synthetic/sample_data.csv --model rf --llm openai

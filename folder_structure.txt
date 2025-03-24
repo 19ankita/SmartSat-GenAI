@@ -1,0 +1,19 @@
+SmartSat-GenAI/
+│
+├── data/synthetic/                         ← CSV sensor data
+├── ml_model/
+│   ├── train_linear_model.py               ← Trains Linear Regression
+│   ├── train_rf_model.py                   ← Trains Random Forest
+│   ├── utils.py                            ← Save model + clean up
+│   ├── correction_model.py                 ← LLM + PDF + history logger
+│
+├── generative_design/
+│   ├── diffusion_model/
+│   │   └── diffusion_generator.py          ← Calls Stable Diffusion
+│   └── topology_optimizer.py               ← Mesh generator
+│
+├── dashboard/
+│   └── streamlit_app.py                    ← Streamlit app
+│
+├── scripts/
+│   └── full_pipeline.py                    ← ✅ YOUR WORKFLOW SCRIPT

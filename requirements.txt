@@ -1,0 +1,48 @@
+# Core Python libraries
+numpy
+pandas
+matplotlib
+scikit-learn
+seaborn
+
+# Machine Learning
+xgboost
+
+# Transformers & Generative AI
+transformers
+torch
+sentencepiece
+accelerate
+
+# Topology optimization / geometry handling
+trimesh
+#scikit-topology
+#topopt
+meshio
+
+# 3D Visualization
+plotly
+pyvista
+
+# Web App / Dashboard
+streamlit
+
+# PDF / Report generation (optional)
+fpdf
+pdfkit
+
+# For loading models locally or via HuggingFace
+huggingface-hub
+
+#Diffusion model
+diffusers
+
+# Misc
+tqdm
+requests
+
+#OpenAI GPT models
+openai
+
+#CAD or 3D design
+vtk

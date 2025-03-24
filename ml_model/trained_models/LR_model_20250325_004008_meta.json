@@ -1,0 +1,9 @@
+{
+    "timestamp": "20250325_004008",
+    "model_file": "LR_model_20250325_004008.pkl",
+    "r2_score": 0.9910202057230257,
+    "features": [
+        "temperature"
+    ],
+    "target": "deformation"
+}

@@ -1,0 +1,13 @@
+[Sensor Data] ──► [ML Model] ──► [LLM Correction]
+                                      │
+                                      └─► [Diffusion Prompt]
+                                             │
+                                             └─► [Image Output]
+                                                 │
+                     [Constraints] ──────────────┘
+                           │
+                           ▼
+               [Generative Design Geometry]
+                          │
+                          ▼
+               [PDF Report + Log History]
