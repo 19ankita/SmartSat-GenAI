@@ -65,8 +65,7 @@ SmartSat-GenAI bridges aerospace and AI using:
 [PDF REPORT 🧾 + CORRECTION LOG 📜]
 
 
-
----               
+---             
 
 ## 📂 Project Structure
 
