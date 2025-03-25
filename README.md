@@ -37,35 +37,7 @@ SmartSat-GenAI bridges aerospace and AI using:
 - 🎨 **Diffusion-Based Concept Generator** – Generate 3D printable designs with prompts like _“lightweight heat-optimized star tracker frame.”_
 
 ---
-
-## Project Workflow
-
-[SENSOR DATA CSV]
-        │
-        ▼
-[ML MODEL TRAINING]
- (Linear Regression / Random Forest)
-        │
-        ▼
-[PREDICTED DEFORMATION]
-        │
-        ▼
-[LLM CORRECTION SUGGESTION]
- (GPT-2 / OpenAI GPT-3.5)
-        │
-        ├────► [DIFFUSION PROMPT GENERATION]
-        │            │
-        │            ▼
-        │     [3D DESIGN IMAGE 🖼️]
-        │
-        ▼
-[GENERATIVE GEOMETRY (STRUCTURE DESIGN)]
-        │
-        ▼
-[PDF REPORT 🧾 + CORRECTION LOG 📜]
-
-
----             
+        
 
 ## 📂 Project Structure
 
