@@ -40,19 +40,14 @@ SmartSat-GenAI bridges aerospace and AI using:
 
 ## Project Workflow
 
-[Sensor Data] ──► [ML Model] ──► [LLM Correction]
-                                      │
-                                      └─► [Diffusion Prompt]
-                                             │
-                                             └─► [Image Output]
-                                                 │
-                     [Constraints] ──────────────┘
-                           │
-                           ▼
-               [Generative Design Geometry]
-                          │
-                          ▼
-               [PDF Report + Log History]
+graph TD
+A[Sensor Data] --> B[ML Model: Predict Deformation]
+B --> C[LLM Correction Suggestion]
+C --> D[Prompt Generator]
+D --> E[Diffusion Model → Image Output]
+E --> F[Generative Geometry]
+F --> G[3D Structure Export + PDF Report]
+
 
 ---               
 
