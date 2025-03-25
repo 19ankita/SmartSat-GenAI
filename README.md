@@ -40,19 +40,26 @@ SmartSat-GenAI bridges aerospace and AI using:
 
 ## Project Workflow
 
-[Sensor Data] ──► [ML Model] ──► [LLM Correction]
-                                      │
-                                      └─► [Diffusion Prompt]
-                                             │
-                                             └─► [Image Output]
-                                                 │
-                     [Constraints] ──────────────┘
-                           │
-                           ▼
-               [Generative Design Geometry]
-                          │
-                          ▼
-               [PDF Report + Log History]
+[Sensor Data]
+      │
+      ▼
+[ ML Model ]
+  (LR / RF)
+      │
+      ▼
+[LLM Correction]
+      │
+      ├───► [Diffusion Prompt]
+      │         │
+      │         ▼
+      │   [Image Output 🖼️]
+      │         │
+      │         └─────────────┐
+      ▼                       │
+[Generative Geometry 🔧]      │
+      │                      ▼
+      └──────► [PDF Report 🧾 + Correction Log 📜]
+
 
 ---               
 
@@ -60,7 +67,7 @@ SmartSat-GenAI bridges aerospace and AI using:
 
 ```bash
 .
-├── data/                       # Sensor CSV datasets
+├── data/                      # Sensor CSV datasets
 ├── dashboard/                 # Streamlit UI
 ├── ml_model/                  # ML models, training scripts, utils, correction model
 ├── generative_design/
