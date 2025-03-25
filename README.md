@@ -14,7 +14,15 @@ This project is part of a broader initiative to combine **Generative AI with Aer
 
 ## 🧠 Project Overview
 
-SmartSat-GenAI leverages machine learning, generative design, and generative AI to analyze thermal deformation in satellite components and suggest realignment corrections. It also uses diffusion models to visualize satellite components based on LLM-generated prompts.
+SmartSat-GenAI bridges aerospace and AI using:
+
+  - Sensor-based ML models to predict deformation
+
+  - LLMs (GPT-2 / OpenAI) to suggest engineering corrections
+
+  - Diffusion Models for 3D printable component design
+
+  - Generative geometry to simulate and export optimized structures
 
 ---
 
@@ -29,6 +37,24 @@ SmartSat-GenAI leverages machine learning, generative design, and generative AI 
 - 🎨 **Diffusion-Based Concept Generator** – Generate 3D printable designs with prompts like _“lightweight heat-optimized star tracker frame.”_
 
 ---
+
+## Project Workflow
+
+[Sensor Data] ──► [ML Model] ──► [LLM Correction]
+                                      │
+                                      └─► [Diffusion Prompt]
+                                             │
+                                             └─► [Image Output]
+                                                 │
+                     [Constraints] ──────────────┘
+                           │
+                           ▼
+               [Generative Design Geometry]
+                          │
+                          ▼
+               [PDF Report + Log History]
+
+---               
 
 ## 📂 Project Structure
 
