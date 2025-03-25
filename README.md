@@ -46,6 +46,9 @@ SmartSat-GenAI leverages machine learning, generative design, and generative AI 
 ├── requirements.txt
 └── README.md
 
+---
+
+
 ## ⚙️ Installation
 
 # Clone the repo
@@ -59,16 +62,28 @@ conda activate smartsat
 # Install dependencies
 pip install -r requirements.txt
 
+
+---
+
+
 ## 🚀 Running the App
 # Start the Streamlit dashboard
 streamlit run dashboard/streamlit_app.py
 
 ## Note : If you do not have OpenAI access, the app will automatically fall back to GPT-2.
 
+
+---
+
+
 ## 📊 Model Training
 Train models independently:
 python ml_model/train_linear_model.py
 python ml_model/train_rf_model.py
+
+
+---
+
 
 ## 🛠️ Tools & Libraries
 
@@ -79,6 +94,8 @@ python ml_model/train_rf_model.py
 | **Generative AI**      | `transformers`, `diffusers`, `torch`                         | LLM-based corrections & diffusion generation |
 | **Reporting**          | `fpdf`                                                       | PDF correction report generation             |
 | **Secrets Handling**   | `python-dotenv` (`dotenv`)                                   | Secure environment variable management       |
+
+---
 
 
 ## 📄 Sample Output
